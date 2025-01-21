@@ -90,6 +90,12 @@
     box-shadow: 3px 3px 3px black;
     transition: 1s;
   }
+  .hr{
+    display: none;
+  }
+  .menubar{
+    display: none;
+  }
 .banner{
     max-height: 575px;
     align-items: center;
@@ -409,6 +415,63 @@
 /* redsposive styles */
 
 @media screen and (max-width:576px) {
-    
+  .nav{
+    margin: 0 8px;
+  }
+  .hr{
+    display: block;
+    color: #FEA301;
+  }
+  .hr>hr{
+    color: #FEA301;
+  }
+  .menubar{
+    display: block;
+    font-size: 2rem;
+  }  
+  .schols-name{
+    display: none;
+  } 
+  .nav-links{
+    display: none
+  }
+  .nav-btn{
+    display: none;
+  }
+  .banner{
+    flex-direction: column-reverse;
+    margin: 450px 16px 20px 16px;
+  }
+  .section-1{
+    margin: 0 16px;
+  }
+  .curriculum-cards{
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  .curriculum-card{
+    width: 100%;
+  }
+  .stories{
+    margin: 0 0;
+  }
+   .stories-cards-1{
+    display: none;
+   }
+   .stories-card-2{
+    grid-template-columns: repeat(2,1fr);
+    margin: 0 16px;
+    width: 100%;
+   }
+   .stories-card>h4{
+    margin-left: 15px;
+    }
+   .footer{
+    padding: 65px 16px 70px 16px;
+    grid-template-columns: repeat(1,1fr);
+   }
+   .footer-links{
+    margin-left: 0px;
+   }
 }
 
