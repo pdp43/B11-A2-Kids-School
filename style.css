@@ -90,9 +90,6 @@
     box-shadow: 3px 3px 3px black;
     transition: 1s;
   }
-  .hr{
-    display: none;
-  }
   .menubar{
     display: none;
   }
