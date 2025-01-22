@@ -270,6 +270,9 @@
     border: none;
     background-color: white;
   }
+  .story-card-hidden{
+    display: none;
+  }
   .stories-card>img{
     width: 100%;
     border-radius: 16px 16px 0 0;
@@ -451,6 +454,9 @@
     grid-template-columns: repeat(2,1fr);
     margin: 0 16px;
     width: 100%;
+   }
+   .story-card-hidden{
+    display: block;
    }
    .stories-card>h4{
     margin-left: 15px;
